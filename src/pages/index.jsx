@@ -97,7 +97,7 @@ const Index = () => (
             The Elements of UI Engineering.
           </a>{" "}
           I've been building products and projects with ReactJS for 3 years and React Native for 2 years. I also work
-          work with Apollo, GraphQL, Redux, styled-components, and NextJS on a daily basis.
+          with Apollo, GraphQL, Redux, styled-components, and NextJS on a daily basis.
         </AboutDesc>
       </About>
       <Contact offset={2}>
