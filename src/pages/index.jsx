@@ -67,56 +67,37 @@ const Index = () => (
         </BigTitle>
         <Subtitle>
           Currently working for{" "}
-          <a href="https://structurely.com/" target="_blank" rel="noopener">
+          <a href="https://structurely.com/" target="_blank" rel="noopener noreferrer">
             Structurely
           </a>{" "}
           as a Front-End Engineer.
+          <br />
           <br />I work with ReactJS and love system design.
         </Subtitle>
       </Hero>
-      {/* <Projects offset={1}>
-        <Title>Projects</Title>
-        <ProjectsWrapper>
-          <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-          >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
-          </ProjectCard>
-          <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
-          </ProjectCard>
-          <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
-          >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
-          </ProjectCard>
-          <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-          >
-            A fantasy image manipulation relocating the habitat of wild animals.
-          </ProjectCard>
-        </ProjectsWrapper>
-      </Projects> */}
       <About offset={1}>
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Matt Gustin" title="Profile Picture" />
           <AboutSub>
-            Here is a snippet description
+            I work with startups to build front-end systems that move fast and provide value to the users.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I am a dude
+          Coming from an entrepreneur's{" "}
+          <a
+            href="https://medium.com/@ISU_JPEC/cystarters-spotlight-series-matt-gustin-co-founder-of-gigroot-3d4637c1191d"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            background
+          </a>{" "}
+          I understand what it means to turn a vision into reality. My passion is creating web applications that follow{" "}
+          <a href="https://overreacted.io/the-elements-of-ui-engineering/" target="_blank" rel="noopener noreferrer">
+            The Elements of UI Engineering.
+          </a>{" "}
+          I've been building products and projects with ReactJS for 3 years and React Native for 2 years. I also work
+          work with Apollo, GraphQL, Redux, styled-components, and NextJS on a daily basis.
         </AboutDesc>
       </About>
       <Contact offset={2}>
@@ -129,9 +110,7 @@ const Index = () => (
             <a href="https://github.com/mgustin12">Github</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2019 by Matt Gustin.
-        </Footer>
+        <Footer>&copy; 2019 by Matt Gustin.</Footer>
       </Contact>
     </Parallax>
   </>
