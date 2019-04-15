@@ -59,5 +59,15 @@ module.exports = {
         mergeCachingHeaders: true, // boolean to turn off the default caching headers
       },
     },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-NB4VR2M",
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: true,
+      },
+    },
   ],
 };
